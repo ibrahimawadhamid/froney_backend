@@ -27,7 +27,7 @@ virtualenv venv
 pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
-python manage.py loaddata fixtures/users.json
+python manage.py loaddata fixtures/initial_data.json
 ```
 
 #### `Start Server`
@@ -36,6 +36,12 @@ python manage.py loaddata fixtures/users.json
 python manage.py runserver
 ```
 
+#### `Login to Admin`
+
+```
+User: admin
+Pass: admin
+```
 
 ## License
 
