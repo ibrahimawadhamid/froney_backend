@@ -8,10 +8,10 @@ ENV PYTHONUNBUFFERED 1
 # create root directory for our project in the container
 RUN mkdir /froney_backend
 
-# Set the working directory to /music_service
+# Set the working directory to /froney_backend
 WORKDIR /froney_backend
 
-# Copy the current directory contents into the container at /music_service
+# Copy the current directory contents into the container at /froney_backend
 ADD . /froney_backend/
 
 # Install any needed packages specified in requirements.txt
