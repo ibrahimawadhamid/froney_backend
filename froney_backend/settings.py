@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Froney Apps
+    'rest_framework',   # enable rest framework
+    'money_manager.apps.MoneyManagerConfig',
 ]
 
 MIDDLEWARE = [
