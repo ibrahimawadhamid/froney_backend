@@ -2,7 +2,14 @@
 
 > Django backend for Froney App
 
+# [Docker](https://hub.docker.com/r/ibrahimawad/froney_backend)
+```
+docker container run -p 80:80 ibrahimawad/froney_backend
+```
+Open your browser [http://localhost](http://localhost)
+
 ## Getting Started (windows)
+### Development - [Github](https://github.com/ibrahimawad/froney_backend)
 
 #### `Setup Environment and Activate`
 
